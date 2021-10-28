@@ -256,9 +256,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 852d612ccbbf2c24aa75a29121c6d2f2, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 852d612ccbbf2c24aa75a29121c6d2f2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 983c52e1e2bf37e478f9c9609feba7e8, type: 2}
+    - target: {fileID: 2300000, guid: 852d612ccbbf2c24aa75a29121c6d2f2, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 13b30095ac22166429fe769e99564c97, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 852d612ccbbf2c24aa75a29121c6d2f2, type: 3}
 --- !u!1 &514364814
@@ -524,7 +532,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: d0e9e533637a2cc4f950ffecf42d0a8c, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d0e9e533637a2cc4f950ffecf42d0a8c, type: 3}
       propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d978385b4cb41dc4093386de88d5c086, type: 2}
+    - target: {fileID: 2300000, guid: d0e9e533637a2cc4f950ffecf42d0a8c, type: 3}
+      propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 983c52e1e2bf37e478f9c9609feba7e8, type: 2}
     m_RemovedComponents: []
@@ -601,7 +617,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 6c11f9b3dc703b3479dffd966eabf73c, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 6c11f9b3dc703b3479dffd966eabf73c, type: 3}
       propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b14be24e99a907943afbe3172aa66217, type: 2}
+    - target: {fileID: 2300000, guid: 6c11f9b3dc703b3479dffd966eabf73c, type: 3}
+      propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 983c52e1e2bf37e478f9c9609feba7e8, type: 2}
     m_RemovedComponents: []
@@ -706,7 +730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sharedProfile: {fileID: 11400000, guid: 41e52e18f55e7b043b2030c2dd68dfdf, type: 2}
   isGlobal: 1
-  blendDistance: 0
+  blendDistance: 7.92
   weight: 1
   priority: 0
 --- !u!114 &1069774573
